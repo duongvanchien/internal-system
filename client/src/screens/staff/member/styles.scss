@@ -1,0 +1,53 @@
+.text_info_staff {
+    display: flex;
+    align-items: center;
+    color: #5c5c5c;
+    line-height: 21px;
+    margin-bottom: 0.5rem;
+    div {
+        font-size: 0.8rem;
+        margin-left: 0.3rem;
+    }
+}
+.staff_box_depart {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn_box_staff {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    justify-content: flex-start;
+    .icon_box_member {
+        margin: 0 0.3rem;
+        background-color: #f3f6ff !important;
+        box-shadow: 0px 2px 20px rgba(95, 73, 118, 0.15);
+        border-radius: 10px;
+        border: 2px solid #fff;
+    }
+    .favorite_icon {
+        color: #ff365e;
+        // .MuiButton-startIcon {
+        //     margin: 0 !important;
+        // }
+    }
+    .comment_icon {
+        color: #1e88e5;
+    }
+}
+
+.btn_show_info {
+    color: #6d6af0;
+    padding: 0.5rem;
+    background: #fafafc;
+    border: 1px solid #f3f3ff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+        background-color: #6d6af0;
+        color: #fff;
+    }
+}

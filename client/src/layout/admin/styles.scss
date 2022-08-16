@@ -1,0 +1,63 @@
+@import "../../styles/themes.module.scss";
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+.logo_main {
+    display: flex;
+    align-items: center;
+}
+
+.cus_treeview {
+    padding: 0.6rem !important;
+}
+
+.cus_treeview {
+    .MuiTreeItem-content {
+        padding: 0.8rem 1rem !important;
+        border-radius: 1rem;
+        &:hover {
+            color: $main !important;
+            background-color: $mainLight !important;
+        }
+    }
+}
+
+.cus_drawer {
+    .Mui-selected {
+        color: $main !important;
+        background-color: $mainLight !important;
+        .MuiTreeItem-label {
+            font-weight: bolder !important;
+        }
+    }
+}
+
+.text_treeview {
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+}
+
+.sub_text_treeview {
+    color: gray;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
+}
+
+.cus_treeitem {
+    margin-bottom: 0.3rem !important;
+}
+
+.btn_logout {
+    cursor: pointer;
+    color: $main;
+    font-weight: 700;
+}
+
+@media all and (max-width: $mobile-width) {
+    .logo_main {
+        h5 {
+            display: none;
+        }
+    }
+}

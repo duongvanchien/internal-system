@@ -1,0 +1,75 @@
+.task_status {
+    padding: 0.3rem 0.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px 4px 0 0;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.inprogress {
+    background-color: #08adff;
+}
+
+.todo {
+    background-color: #a09d9d;
+}
+
+.review {
+    background-color: #ffcf00;
+}
+
+.complete {
+    background-color: rgb(107, 201, 80);
+}
+
+.task_clickup {
+    align-items: center;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    &:hover{
+        color: #6de899;
+        background-color: #fff;
+    }
+}
+
+.tasks_header {
+    display: flex;
+    align-items: baseline;
+}
+
+.dot_task {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 6px;
+}
+
+.inprogress_dot {
+    background-color: #08adff;
+}
+
+.todo_dot {
+    background-color: #a09d9d;
+}
+
+.review_dot {
+    background-color: #ffcf00;
+}
+
+.complete_dot {
+    background-color: rgb(107, 201, 80);
+}
+
+.assign_group {
+    .MuiAvatarGroup-avatar {
+        font-size: 10px !important;
+        width: 25px !important;
+        height: 25px !important;
+        cursor: pointer;
+    }
+}

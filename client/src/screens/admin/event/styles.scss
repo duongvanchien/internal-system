@@ -1,0 +1,47 @@
+.image_cus {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image_container {
+    position: relative;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_cus_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #fff;
+    .icon {
+        cursor: pointer;
+        margin: 4px;
+    }
+}
+.image_container:hover .image_cus_overlay {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text_des_split {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.cus_btn_card {
+    padding: 2px !important;
+}

@@ -1,0 +1,49 @@
+.profile_container {
+    background: #ffffff;
+    box-shadow: 0px 4px 30px rgba(95, 73, 118, 0.15);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title_profile {
+    color: #1e2959;
+}
+
+.field_title {
+    color: #7e7e7e;
+}
+
+.field_content {
+    // margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.btn_edit_profile {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    font-style: italic;
+    &:hover {
+        color: red;
+    }
+}
+.upload_box_avatar_round {
+    width: 150px !important;
+    height: 150px !important;
+    border: 2px dotted gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 100px;
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.link_facebook {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}

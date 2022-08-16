@@ -1,0 +1,20 @@
+$main: #673ab7;
+$mainLight: #ede7f6;
+
+$error: red;
+$success: #64dd17;
+$gray: #9e9e9e;
+
+$mainStaff: #8490fd;
+
+$pathImage: "../assets/images";
+
+:export {
+    main: $main;
+    mainLight: $mainLight;
+    error: $error;
+    success: $success;
+    gray: $gray;
+    mainStaff: $mainStaff;
+    pathImage: $pathImage;
+}

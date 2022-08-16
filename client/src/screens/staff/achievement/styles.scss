@@ -1,0 +1,226 @@
+@import "react-big-calendar/lib/sass/styles";
+.slogan_header {
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: rgba(109, 106, 240, 0.4);
+    padding: 7px 50px;
+    border-radius: 50px;
+}
+
+.tab_name {
+    display: flex;
+    align-items: center;
+}
+
+.tab_right {
+    background-color: #fff;
+    box-shadow: 0px 4px 30px rgba(95, 73, 118, 0.1);
+    border-radius: 10px 10px 0px 0px;
+    padding: 0.5rem 1rem;
+}
+
+.list_staff_box {
+    max-height: 944px;
+    overflow-y: scroll;
+    padding: 0.5rem;
+}
+
+.tab_right_title {
+    display: flex;
+    align-items: center;
+}
+
+.select_time_achie {
+    .MuiOutlinedInput-root {
+        background-color: #f7f8ff !important;
+        color: #5856dd !important;
+    }
+}
+
+.box_statistic {
+    border: 1px solid #ecf2fe;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .box_statistic_title {
+        flex: 3;
+        border-right: 1px solid #dde8ff;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+    .box_value {
+        flex: 1;
+        text-align: end;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    margin-right: 0.3rem;
+}
+
+.dot_green {
+    background: #3fb660;
+}
+
+.dot_blue {
+    background: #51cbff;
+}
+
+.dot_yellow {
+    background: #fec001;
+}
+
+.dot_red {
+    background: #ff5151;
+}
+
+.box_total {
+    background: linear-gradient(270deg, #4897f1 0%, #9176ff 100%);
+    padding: 1rem 1.3rem;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 0 0.5rem;
+}
+
+.text_statistic {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+    flex: 5;
+    border-right: 1px solid #fff;
+}
+
+.number_statistic {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+    flex: 2;
+    text-align: end;
+}
+
+.staff_item {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    .staff_item_name {
+        margin-left: 0.5rem;
+        .name {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+    &:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.btn_back {
+    position: absolute;
+    top: 3%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    left: 0;
+    padding: 0.5rem 0.8rem;
+    box-shadow: 0px 2px 20px rgba(95, 73, 118, 0.1);
+    border-radius: 0px 15px 15px 0px;
+    justify-content: space-between;
+    width: 80px;
+    cursor: pointer;
+    &:hover {
+        width: 100px;
+        transition: all 0.5s;
+        box-shadow: 0px 2px 20px rgba(95, 73, 118, 0.2);
+    }
+}
+
+.icon_top {
+    width: 36px;
+}
+
+.ranking_staff {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.7rem;
+    border: 1.5px solid #ecf2fe;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.7rem;
+    .ranking_number {
+        flex: 1;
+        text-align: center;
+    }
+    .top_avatar {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .top_info {
+        flex: 7;
+        .name_staff_ranking {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: uppercase;
+        }
+        .department_staff_ranking {
+            font-size: 12px;
+            line-height: 16px;
+            color: #727272;
+        }
+    }
+    .top_score {
+        flex: 1;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        background: #f9faff;
+        border: 1px solid #dde5f5;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 0.3rem 0.7rem;
+    }
+}
+.number_top {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.btn_content {
+    display: flex;
+    align-items: center;
+    background: #f9faff;
+    border: 1.5px solid #6d6af0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #6d6af0 !important;
+    width: 100px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    &:hover {
+        background-color: #6d6af0;
+        color: #fff !important;
+    }
+}

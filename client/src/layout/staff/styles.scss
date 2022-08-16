@@ -1,0 +1,80 @@
+@import "../../styles/themes.module.scss";
+
+.layout_staff_container {
+    max-width: 100% !important;
+    height: 60vh !important;
+    background-size: cover !important;
+    background-position: center;
+    padding: 0 !important;
+    background-repeat: no-repeat !important;
+
+    .bg_overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(24, 40, 112, 0.85);
+        padding: 0;
+    }
+    .bg_overlay_none {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+}
+
+.footer_container {
+    position: sticky;
+    top: 100%;
+}
+
+.footer {
+    background-color: #1d262d;
+    padding: 4rem 0;
+}
+
+.footer_contact {
+    background-color: #2a3842;
+    padding: 1rem 0;
+    color: #bac8d3;
+}
+
+.footer_item_contact {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff !important;
+    margin-top: 1rem;
+    a {
+        text-decoration: none;
+        color: #fff !important;
+        margin-left: 0.5rem;
+        &:hover {
+            color: $mainStaff !important;
+        }
+    }
+}
+
+.footer_description {
+    color: #bac8d3;
+    margin-top: 1rem;
+}
+
+.footer_feature {
+    color: #fff;
+    text-align: center;
+    h4 {
+        margin: 0 !important;
+    }
+    .item {
+        margin-top: 0.5rem;
+        cursor: pointer;
+        &:hover {
+            color: $mainStaff;
+        }
+    }
+}
+
+.icon_contact {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
